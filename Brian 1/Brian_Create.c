@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+
+int main() 
+{
+    int file;
+    file = open("text", O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
+    close(file);
+    return 0; 
+}

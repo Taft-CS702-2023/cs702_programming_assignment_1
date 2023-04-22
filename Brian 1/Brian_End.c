@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    FILE *file;
+    file = fopen("doc", "r");
+    exit(0);
+}
